@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="GitLab Pages">
+    <title>Plain HTML site using GitLab Pages</title>
+    <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=5rZf80AS_1kqkrNHJU_RcH_8z-2QVU1gxqHX3my2ZVuXECqiqqMHbYFcqdzhAvpH5snkJsqqq23hXcQfinRj_g" charset="UTF-8"></script><script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ip1WzYAxURh7s3juwt7RPT7lgAR_hoch0mNqV57i5K6IWm8iy2IbMCWoij4CZcd7BmglmjzHWNKbnOZI-7T-hQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://me.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hLm5pa2lmb3JvdmEuZ2l0bGFiLmlvL3dlYjEv"/></head>
+  <body>
+<div class="header">
+  <div class="logo"> <img src="logo.jpg" alt="logotip" height="70" > </div>
+        <div> Лошадки </div> 
+  </div>
+  <div class="nav ">
+          <div class="menu">
+      <a href="https://ferma.expert/jivotnie/loshadi/porody-loshadi/tsyganskaya-upryazhnaya-loshad-tinker/" > Цыганская порода </a>&nbsp;&nbsp;
+      <a href="https://selo-exp.com/loshadi/arabskij-skakun.html"> Арабская лошадь</a>&nbsp;&nbsp;
+      <a href="http://loshadi.info/porody/loshad-skalistyh-gor" > Лошадь скалистых гор </a>
+</div>
+   <h1>Список гиперссылок</h1>
+	<a href="http://example.com" target="_blank">Абсолютную гиперссылка на главную страницу сайта example.com</a><br>
+
+	<a href="https://example.com/" target="_blank">Абсолютная на главную сайта example.com в протоколе https</a><br>
+
+	<a href="ftp://ftp.redcom.ru/" target="_blank">Ссылка на файл на сервере FTP без авторизации</a><br>
+
+	<a href="ftp://user:pass123@tavalik.ru" target="_blank">Ссылка на файл на сервере FTP с авторизацией</a><br>
+
+	<a href="http://www.example.com/about" target="_blank">Ссылка на фрагмент страницы некоторого сайта</a><br>
+
+	<a href="#yakor">Ссылка на фрагмент текущей страницы</a><br>
+
+	<a href="https://www.wildberries.ru/catalog/0/search.aspx?search.aspx?search=корма%20для%20дегу&sort=popular" target="_blank">Ссылка с двумя параметрами в URL</a><br>
+
+	Список ссылок основной навигации сайта с подписями title
+<ul>
+	<a href="web1.html" title="Главная страница" target="_blank">Главная страница</a><br>
+	<a href="" title="Обновить странницу">Обновить</a><br>
+	<a href="../web1.html" title="Относительная ссылка на страницу в каталоге уровнем выше текущего" target="_blank">Относительная ссылка на страницу в каталоге уровнем выше текущего</a><br>
+</ul>
+	<a>Ссылка без href</a><br>
+
+	<a href="" target="_blank">Ссылка с пустым href</a><br>
+
+	<a href="http://example.ru" rel="nofollow" target="_blank">Ссылка, по которой запрещен переход поисковикам</a><br>
+
+	<!--noindex--><a href="http://example.ru" target="_blank">Ссылка, запрещенная для индексации поисковиками</a><!--/noindex--><br>
+
+	<p>Контекстная ссылка в тексте <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BB%D0%BB%D0%B0" target="_blank">абзаца</a></p><br>
+
+<a href="squirrel.jpg"><img src="squirrel.jpg" width="30" height="30" >Ссылка-изображение</a><br>
+
+<img src="db1272312e6f565c9c95fe4ef4423779.jpg" width="500" height="400" alt="Ссылки из прямоугольной и круглой областей картинки (HTML-тег map)" usemap="#db1272312e6f565c9c95fe4ef4423779"/>
+	<map name="каракал">
+	<area shape="rect" coords="0,0,300,200" href="https://www.mk.ru/social/2019/03/01/legko-li-derzhat-doma-dikuyu-koshku.html" alt="rect" title="каракал"/>
+	<area shape="circle" coords="250,300,75" href="http://animalsglobe.ru/risi/" alt="circle" title="рысь"/>
+	</map><br>
+
+
+
+	<a href="web1.html" target="_blank">Относительная ссылка на страницу в текущем каталоге</a><br>
+
+	<a href="about/about.html" target="_blank">Относительная ссылка на страницу в каталоге about</a><br>
+
+	<a href="../web1.html" target="_blank">Относительная ссылка на страницу в каталоге уровнем выше текущего</a><br>
+
+	<a href="../../web1.html" target="_blank">Относительная ссылка на страницу в каталоге двумя уровнями выше</a><br>
+
+	<a href="/web1.html" target="_blank">Сокращенная ссылка на главную</a></li></br>
+
+	<a href="demo.html" target="_blank">Cсылка на внутреннюю страницу</a><br>
+
+<form action="/"
+method="POST">
+
+<Body bgcolor="#ebe4d2">
+    <font color="#a53d54">
+    <h1 align = center> Информация о себе  </h1>
+    </font>
+    
+    <font color="#214f55"> 
+    <h1><label> Имя: <input type = "text"> </label></h1>
+    </font>
+    <font color="#214f55"> 
+    <h1><label> Email: <input type = "email:"> </label></h1>
+    </font>
+    <h4 align = left> <label> Дата рождения: <input type = "date"> </label> </h4>
+    <font color="#214f55">
+    Пол:<br />
+    <font color="#fa973c"></font>
+          <label><input type="radio" 
+            name="radio-group-1" value="Значение1" />
+            женский</label>
+            </font>
+            <font color="#fa973c">
+          <label><input type="radio"
+            name="radio-group-1" value="Значение2" />
+            мужской</label><br />
+    </font>
+    <font color="#000000"> 
+    Колличество конечностей:<br />
+          <label><input type="radio" 
+            name="radio-group-1" value="Значение1" />
+             1</label>
+          <label><input type="radio"
+            name="radio-group-1" value="Значение2" />
+            2</label><br />
+    <label><input type="radio" 
+            name="radio-group-1" value="Значение3" />
+             3</label>
+          <label><input type="radio"
+            name="radio-group-1" value="Значение4" />
+            4</label><br />
+    </font>
+    <font color="#897f85">
+    <h4 align = left> <label for Способности:="Способности:">Способности:</label> </h4>
+    <select name="Способности:">
+    <option value= "слышать и видеть будущее">слышать и видеть будущее</option>
+    <option value="трансмутицая">трансмутация</option>
+    <option value="не старение">не старение</option>
+    <option value="уход из материального мира по собственному желанию">уход из материального мира по собственному желанию</option>
+    <option value="понимание языка животных">понимание языка животных</option>   
+    </select>
+    </font>
+    <h4 align = left><label> Биография :<textarea> </textarea> </label> </h4>
+    </fieldset>
+    
+    C контрактом ознакомлен:<br />
+          <label><input type="checkbox" 
+            name="radio-group-1" value="Значение1" />
+            </label>
+    <P>
+    <input type ="submit" value= "Отправить">
+    </Body>
+    </HTML>
+    <a id="yakor"> </a>
+</form>
+        <h2>Характеристика пород лошадей</h2>
+     <div class="table"></div>
+        <table>
+            <tbody>
+                <tr>
+                   <th class="ncet">Порода </th>
+                   <th class="ncet">Рост (см в холке)</th>
+                  <th class="ncet">Вес (кг)</th>
+                  <th class="ncet">Продолжительность жизни в годах</th>
+
+                </tr>
+                <tr>
+                      <td colspan="2" class="cet">Американский пейнтхорс 145-165</td>
+                    <td class="cet">500</td>
+                    <td class="cet">31</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="ncet">Арабская порода лошадей 140-157 </td>
+                    <td class="ncet">480</td>
+                    <td class="ncet">30</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="cet">Аппалуза 142-152</td>
+                    <td class="cet">450-500</td>
+                    <td class="cet">28</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="ncet">Лошадь скалистых гор 142-160</td>
+                    <td class="ncet">450-520</td>
+                    <td class="ncet">40</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="cet">Цыганская упряжная порода 135-160</td>
+                    <td class="cet">240-700</td>
+                    <td class="cet">29</td>
+                     </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="footer ">(с)Бахметенко Анастасия 2020 </div>
+  </body>
+</html>
